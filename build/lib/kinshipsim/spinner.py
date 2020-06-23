@@ -6,7 +6,7 @@ https://github.com/Tagar/stuff/blob/master/spinner.py
 
 """
 
-__version__ = '2020.6'
+__version__ = '2020.7'
 __author__ = 'Team Neogene'
 
 import sys
