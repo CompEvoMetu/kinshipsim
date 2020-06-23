@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: kinshipsim
+Version: 2020.6
+Summary: A kinship simulation tool
+Home-page: https://github.com/CompEvoMetu/kinshipsim
+Author: Team Neogene
+Author-email: imapelli@metu.edu.tr
+License: GNU General Public License v3 (GPLv3)
+Description: The **kinshipsim** library has been implemented to infer the genetic relationships between 
+            pairs of individuals. Following the estimation of the kinship coefficient (theta) and probabilities of sharing 0, 
+            1 or 2 alleles  identical-by-descent (Cotterman coefficients, k0, k1, k2), it is necessary to determine the 
+            specific ranges for each degree of relatedness as well as kinship relationships. Given this context, this library 
+            allows to simulate multiple pedigrees, using both autosomal and X chromosomal data, to study the distribution of 
+            the aforementioned parameters across each degree of interest in the attempt to approximate their boundaries.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3

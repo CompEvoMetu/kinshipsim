@@ -1,0 +1,3 @@
+include kinshipsim/shell/*.sh
+include kinshipsim/readme.md
+include kinshipsim/readme.txt
