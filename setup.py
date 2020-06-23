@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='kinshipsim',
-    version='2020.6',
+    version='2020.7',
     packages=['kinshipsim', 'kinshipsim.scripts'],
     include_package_data=True,
     url='https://github.com/CompEvoMetu/kinshipsim',
@@ -11,11 +11,8 @@ setup(
     author_email='imapelli@metu.edu.tr',
     description='A kinship simulation tool',
     long_description="""The **kinshipsim** library has been implemented to infer the genetic relationships between 
-    pairs of individuals. Following the estimation of the kinship coefficient (theta) and probabilities of sharing 0, 
-    1 or 2 alleles  identical-by-descent (Cotterman coefficients, k0, k1, k2), it is necessary to determine the 
-    specific ranges for each degree of relatedness as well as kinship relationships. Given this context, this library 
-    allows to simulate multiple pedigrees, using both autosomal and X chromosomal data, to study the distribution of 
-    the aforementioned parameters across each degree of interest in the attempt to approximate their boundaries.""",
+    pairs of individuals. It enables the simulation of multiple pedigrees, using both autosomal and X chromosomal data,
+    and provides additional pre-processing options, e.g., SNPs reduction, pseudo-haploidization.""",
     install_requires=['pandas', 'numpy', 'fire'],
     python_requires='>=3',
     classifiers = [

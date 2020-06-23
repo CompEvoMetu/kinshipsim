@@ -3,7 +3,7 @@ Kinship simulation, Pedigree abstract class:
 Define the main pedigree methods and structures upon which defining concrete pedigree implementations.
 """
 
-__version__ = '2020.6'
+__version__ = '2020.7'
 __author__ = 'Team Neogene'
 
 from abc import ABC, abstractmethod

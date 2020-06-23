@@ -4,7 +4,7 @@ Given a reference VCF file, it generates multiple haploidized versions exported 
 NOTE: Python script to be launched from the command line.
 """
 
-__version__ = '2020.6'
+__version__ = '2020.7'
 __author__ = 'Team Neogene'
 
 import fire

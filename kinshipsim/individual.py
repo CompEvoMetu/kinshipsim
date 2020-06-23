@@ -5,7 +5,7 @@ offsprings and gender details. It has an associated ID and it may contain additi
 recombination process from which the individual was generated.
 """
 
-__version__ = '2020.6'
+__version__ = '2020.7'
 __author__ = 'Team Neogene'
 
 import random
