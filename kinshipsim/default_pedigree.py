@@ -3,7 +3,7 @@ Kinship simulation, Default Pedigree class:
 Define the pedigree structure together with indices and labels of interest.
 """
 
-__version__ = '2020.7'
+__version__ = '2020.8'
 __author__ = 'Team Neogene'
 
 from kinshipsim.individual import Individual

@@ -31,7 +31,7 @@ if (( $7 >= 1 )); then
  echo "║ external files are loaded and analyzed by ngsRelate. Importantly, the haploidization is only considered for   ║"
  echo "║ autosome data (i.e., with atDNA set to 1).                                                                    ║"
  echo "║                                                                                                               ║"
- echo "║ [kinshipsim version 2020.7]                                                                                   ║"
+ echo "║ [kinshipsim version 2020.8]                                                                                   ║"
  echo "║                                                                                                               ║"
  echo "╙───────────────────────────────────────────────────────────────────────────────────────────────────────────────╜"
  echo

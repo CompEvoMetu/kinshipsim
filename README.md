@@ -1,5 +1,5 @@
 # KINSHIP SIMULATION<br>
-### *kinshipsim version 2020.7*
+### *kinshipsim version 2020.8*
 
 ---
 

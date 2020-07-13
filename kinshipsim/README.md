@@ -1,5 +1,5 @@
 # KINSHIP SIMULATION<br>
-### *version 2020.7*
+### *version 2020.8*
 
 ---
 

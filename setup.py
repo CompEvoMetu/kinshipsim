@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='kinshipsim',
-    version='2020.7',
+    version='2020.8',
     packages=['kinshipsim', 'kinshipsim.scripts'],
     include_package_data=True,
     url='https://github.com/CompEvoMetu/kinshipsim',
