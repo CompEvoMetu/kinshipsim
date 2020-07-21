@@ -420,10 +420,11 @@ class DefaultPedigree(Pedigree):
 
     def __get_indices(self, groups: dict) -> dict:
         """
+        Update the dictionary with the indices of each id.
 
-        :param dict groups :
+        :param dict groups : The dictionary containing the couples of IDs.
 
-        :return: dict :
+        :return: dict : The dictionary updated with the indices of all IDs.
         """
 
         for key, value in groups.items():

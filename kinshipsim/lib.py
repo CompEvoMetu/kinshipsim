@@ -9,18 +9,18 @@ Kinship simulation, library:
 __version__ = '2020.8'
 __author__ = 'Team Neogene'
 
-import pickle
-from numbers import Number
-import ast
 import os
-import random
+import ast
+import sys
 import math
+import pickle
+import random
+import shutil
 import logging
 import statistics
-import sys
-import shutil
 import pandas as pd
 from pathlib import Path
+from numbers import Number
 from kinshipsim.spinner import Spinner
 from kinshipsim.individual import Individual
 
@@ -2191,6 +2191,38 @@ def select_snps(vcf_file: str, pos_file: str) -> [int, int, int]:
     out_pos.close()
 
     return [write_out, tot_vcf, tot_pos]
+
+
+def idx2int(idx: list) -> list:
+    """
+    Convert lists of indices which are stored as strings into lists of integers.
+
+    :param list idx : The lists of indices stored as strings.
+
+    :return: list : The lists of indices converted to integers.
+    """
+
+    out_idx = []
+    for val in idx:
+        out_idx.append([int(i) for i in val])
+
+    return out_idx
+
+
+def idx2str(idx: list) -> list:
+    """
+    Convert lists of indices which are stored as integers into lists of strings.
+
+    :param list idx : The lists of indices stored as integers.
+
+    :return: list : The lists of indices converted to strings.
+    """
+
+    out_idx = []
+    for val in idx:
+        out_idx.append([str(i) for i in val])
+
+    return out_idx
 
 
 def __fix_snp(s: str) -> str:
