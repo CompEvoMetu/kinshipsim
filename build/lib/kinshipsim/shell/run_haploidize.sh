@@ -25,7 +25,7 @@ if (( $5 >= 1 )); then
  echo "║                                                                                                               ║"
  echo "║ Haploidize n times a list of autosomal pedigrees (also considering the different SNPs reduction).             ║"
  echo "║                                                                                                               ║"
- echo "║ [kinshipsim version 2020.7]                                                                                   ║"
+ echo "║ [kinshipsim version 2020.8]                                                                                   ║"
  echo "║                                                                                                               ║"
  echo "╙───────────────────────────────────────────────────────────────────────────────────────────────────────────────╜"
  echo

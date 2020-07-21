@@ -27,7 +27,7 @@ if (( $7 >= 1 )); then
  echo "║ Each pedigree is stored in assumed to be store in a separate folder 'pedigree_n' with n = 1, 2, ...           ║"
  echo "║ The main folder, i.e., 'working_folder' should contains all the pedigrees subfolders.                         ║"
  echo "║                                                                                                               ║"
- echo "║ [kinshipsim version 2020.7]                                                                                   ║"
+ echo "║ [kinshipsim version 2020.8]                                                                                   ║"
  echo "║                                                                                                               ║"
  echo "╙───────────────────────────────────────────────────────────────────────────────────────────────────────────────╜"
  echo

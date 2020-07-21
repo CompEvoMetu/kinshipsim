@@ -4,7 +4,7 @@ Add frequency values (loaded from FRQ and MAP files) to a VCF file through the T
 NOTE: Python script to be launched from the command line.
 """
 
-__version__ = '2020.7'
+__version__ = '2020.8'
 __author__ = 'Team Neogene'
 
 

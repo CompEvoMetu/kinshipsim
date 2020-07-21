@@ -4,7 +4,7 @@ Check integrity and consistency of the VCF file.
 NOTE: Python script to be launched from the command line.
 """
 
-__version__ = '2020.7'
+__version__ = '2020.8'
 __author__ = 'Team Neogene'
 
 import logging

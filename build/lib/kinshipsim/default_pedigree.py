@@ -3,7 +3,7 @@ Kinship simulation, Default Pedigree class:
 Define the pedigree structure together with indices and labels of interest.
 """
 
-__version__ = '2020.7'
+__version__ = '2020.8'
 __author__ = 'Team Neogene'
 
 from kinshipsim.individual import Individual
@@ -367,7 +367,7 @@ class DefaultPedigree(Pedigree):
         else:  # unknown n-th degree relationships
             groups = {}
 
-        return groups
+        return self.__get_indices(groups)
 
     def aut_groups(self, n: int) -> dict:
         """
@@ -415,5 +415,28 @@ class DefaultPedigree(Pedigree):
                       }
         else:  # unknown n-th degree relationships
             groups = {}
+
+        return self.__get_indices(groups)
+
+    def __get_indices(self, groups: dict) -> dict:
+        """
+
+        :param dict groups :
+
+        :return: dict :
+        """
+
+        for key, value in groups.items():
+            value["idx"] = []
+            for ids in value["val"]:
+                id1 = lib.id2index(ids[0], self.ids)
+                if id1 == -1:
+                    msg = "Individual '{}' was not found.".format(ids[0])
+                    raise ValueError(msg)
+                id2 = lib.id2index(ids[1], self.ids)
+                if id2 == -1:
+                    msg = "Individual '{}' was not found.".format(ids[1])
+                    raise ValueError(msg)
+                value["idx"].append([str(id1), str(id2)])
 
         return groups
